@@ -12,6 +12,7 @@ class NewsService {
     ),
   );
 
+  /// interface
   Future<List<Article>> getArticles() async {
     await Future.delayed(const Duration(seconds: 1));
     return _articles;
